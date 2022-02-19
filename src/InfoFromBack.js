@@ -6,7 +6,6 @@ export default class NewsApiService {
   }
 
   async getUser() {
-    console.log(this);
     const BASE_URL = 'https://pixabay.com/api/';
     const MY_KEY = 'key=25767456-f92e672e1b91dd336dc5b7edd';
     const CONST_PARAM = `image_type=photo&orientation=horizontal&safesearch=true&page=${this.page}&per_page=40`;
